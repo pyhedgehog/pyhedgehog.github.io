@@ -1,3 +1,8 @@
+--
+title: Pyhedgehog.GitHub.io by pyhedgehog
+layout: base
+--
+
 ### projects:
 
 * [kstat](https://github.com/pyhedgehog/kstat)
