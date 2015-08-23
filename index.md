@@ -1,0 +1,11 @@
+---
+layout: page
+title: Soft
+---
+
+<!--### projects:-->
+
+* [kstat](https://github.com/pyhedgehog/kstat)
+* [tmpobutton](https://github.com/pyhedgehog/tmpobutton)
+* [mozsessiontool](https://github.com/pyhedgehog/mozsessiontool)
+* [microformat-userjs](microformat-userjs/)

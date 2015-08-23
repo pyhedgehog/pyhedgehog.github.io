@@ -1,0 +1,20 @@
+<header class="site-header">
+
+  <h1 class="header"><a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a></h1>
+  <p class="header">Assorted software projects</p>
+
+  <div class="trigger">
+    {% for refpage in site.pages %}
+      {% if refpage.title %}
+        {% if refpage.layout == "page" %}
+          <a class="page-link" href="{{ refpage.url | prepend: site.baseurl }}">{{ refpage.title }}</a><br/>
+        {% endif %}
+      {% endif %}
+    {% endfor %}
+  </div>
+
+  <ul>
+    <li><a class="buttons github" href="https://github.com/{{ site.github_username }}">GitHub Profile</a></li>
+  </ul>
+
+</header>

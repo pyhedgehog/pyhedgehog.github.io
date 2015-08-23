@@ -1,0 +1,7 @@
+# jekill-specific:
+_site
+.sass-cache
+Gemfile.lock
+
+# projects:
+microformat-userjs

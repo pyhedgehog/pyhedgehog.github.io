@@ -1,0 +1,13 @@
+# Site settings
+title: PyHedgehog
+email: pywebmail@list.ru
+description: > # this means to ignore newlines until "baseurl:"
+  Assorted software projects
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://pyhedgehog.github.io" # the base hostname & protocol for your site
+github_username: pyhedgehog
+
+# Build settings
+markdown: kramdown
+
+highlighter: pygments
